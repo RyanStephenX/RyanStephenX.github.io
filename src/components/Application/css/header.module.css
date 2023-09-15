@@ -1,0 +1,255 @@
+/* .frame1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3806px;
+    align-items: flex-start;
+    background-color: #494d3e;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px #00000040;
+} */
+
+.frame2 {
+    position: relative;
+    /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    width: 100%;
+    height: 630px;
+    align-items: center;
+    border-radius: 30px; 
+    background-image: linear-gradient(180deg, #b7b7a4ff 0%, #6b705cff 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin: 0 auto;
+
+}
+/*FRAME 2 RESPONSIVE */
+@media (max-width: 2000px) {
+   
+}
+@media (max-width: 1960px) {
+    .frame2 {
+        max-width: 1900px;
+    }
+}
+
+@media (max-width: 1536px) {
+    .frame2 {
+        max-width: 1440px;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    .frame2 {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .frame2 {
+        max-width: 924px;
+    }
+}
+
+@media (max-width: 768px) {
+    .frame2 {
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 640px) {
+    .frame2 {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 475px) {
+    .frame2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .frame2 {
+        width: 100%;
+    }
+}
+/*FRAME 2 RESPONSIVE */
+
+
+
+.aPPAREL {
+    color: #fff;
+    font-size: 40px;
+    font-family: Khand, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 320px;
+    top: 374px;
+    width: 319.9023px;
+    height: 94px;
+    text-shadow: 0px 4px 4px #00000040;
+    flex-direction: column;
+}
+
+.oTOBOTS {
+    color: #fff;
+    font-size: 128px;
+    font-weight: 800;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 45px;
+    top: 77px;
+    width: 666px;
+    height: 143px;
+    text-shadow: 0px 4px 4px #00000040;
+    flex-direction: column;
+}
+.oTOBOTS2 {
+    opacity: 0.75;
+    color: #fff;
+    font-size: 128px;
+    font-weight: 800;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 45px;
+    top: 148px;
+    width: 666px;
+    height: 143px;
+    text-shadow: 0px 4px 4px #00000040;
+    flex-direction: column;
+}
+
+.aPPAREL {
+    color: #fff;
+    font-size: 40px;
+    font-family: Khand, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 320px;
+    top: 374px;
+    width: 319.9023px;
+    height: 94px;
+    text-shadow: 0px 4px 4px #00000040;
+    flex-direction: column;
+}
+
+.oTOBOTS3 {
+    opacity: 0.25;
+    color: #fff;
+    font-size: 128px;
+    font-weight: 800;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 45px;
+    top: 250px;
+    width: 666px;
+    height: 143px;
+    text-shadow: 0px 4px 4px #00000040;
+    flex-direction: column;
+}
+
+.oTOBOTS4 {
+    opacity: 0.5;
+    color: #fff;
+    font-size: 128px;
+    font-weight: 800;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 45px;
+    top: 201px;
+    width: 666px;
+    height: 143px;
+    text-shadow: 0px 4px 4px #00000040;
+    flex-direction: column;
+}
+
+.image3 {
+    transform-origin: top left;
+    position: absolute;
+    left: 1000.1875px;
+    top: 44px;
+    width: 546px;
+    height: 427px;
+    background-image:
+        /* webpackIgnore: true */
+        url('https://clipart-library.com/image_gallery2/Jacket-PNG-Picture.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 0px 4px 4px 0px #00000040; */
+    transform: matrix(0.9609, 0.2768, -0.2768, 0.9609, 0, 0);
+}
+
+.image2 {
+    transform-origin: top left;
+    position: absolute;
+    left: 854.8396px;
+    top: 50px;
+    width: 356px;
+    height: 496px;
+    background-image:
+        /* webpackIgnore: true */
+        url('https://www.freepnglogos.com/uploads/jacket-png/jacket-denim-solutions-website-launching-program-denim-solutions-ltd-24.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 0px 4px 4px 0px #00000040; */
+    transform: matrix(0.977, 0.2134, -0.2134, 0.977, 0, 0);
+}
+
+.image1 {
+    transform-origin: top left;
+    position: absolute;
+    left: 464px;
+    top: 123.3835px;
+    width: 472px;
+    height: 500px;
+    background-image:
+        /* webpackIgnore: true */
+        url('https://www.pngmart.com/files/16/Biker-Leather-Jacket-PNG-HD.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: inset 0px 4px 4px 0px #00000040; */
+    transform: matrix(0.9752, -0.2212, 0.2212, 0.9752, 0, 0);
+}
+
+.rectangle2 {
+    color: #fff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 229px;
+    top: 459px;
+    width: 298px;
+    height: 95px;
+    border-radius: 50px;
+    background-color: #b7b7a4;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Khand, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+            'Liberation Sans', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px #00000040; 
+}
+
+.rectangle2:hover{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+Link{
+    text-decoration: none;
+}

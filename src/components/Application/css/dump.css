@@ -1,0 +1,38 @@
+.cardcontainer {
+    display: flex;
+    /* Use Flexbox to align cards horizontally in a row */
+    justify-content: center;
+    /* Center cards horizontally within the row */
+    align-items: center;
+    /* Center cards vertically within the row */
+    left: 73.0524px;
+    float: left;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 73px;
+    width: 374.6197px;
+    height: 400.3811px;
+    text-align: center;
+}
+
+.img {
+    max-width: 100%;
+    /* Ensure the images don't exceed their original dimensions */
+    height: auto;
+    /* Maintain the image's aspect ratio */
+    margin: 10px;
+    /* Add margin between images */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: Livvic, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    padding: 16px;
+}
