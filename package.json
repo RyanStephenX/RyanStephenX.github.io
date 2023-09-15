@@ -2,7 +2,7 @@
   "name": "otobots",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://RyanStephenX.github.io/react-gh-pages",
+  "homepage": "https://RyanStephenX.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
